@@ -1,0 +1,18 @@
+{
+  "results": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.5123,
+      "macro_f1": 0.1188
+    },
+    "Linear SVM": {
+      "accuracy": 0.5812,
+      "macro_f1": 0.3506
+    },
+    "Logistic Regression": {
+      "accuracy": 0.5951,
+      "macro_f1": 0.3568
+    }
+  },
+  "best_model": "Logistic Regression",
+  "classification_report": "              precision    recall  f1-score   support\n\n      action       0.48      0.36      0.41      1314\n       adult       0.67      0.38      0.49       590\n   adventure       0.54      0.23      0.32       775\n   animation       0.47      0.13      0.20       498\n   biography       0.00      0.00      0.00       264\n      comedy       0.55      0.60      0.57      7446\n       crime       0.30      0.08      0.12       505\n documentary       0.70      0.83      0.76     13096\n       drama       0.57      0.74      0.64     13612\n      family       0.45      0.15      0.22       783\n     fantasy       0.40      0.09      0.15       322\n   game-show       0.87      0.58      0.69       193\n     history       0.29      0.02      0.03       243\n      horror       0.66      0.61      0.64      2204\n       music       0.65      0.49      0.56       731\n     musical       0.33      0.05      0.09       276\n     mystery       0.32      0.03      0.06       318\n        news       0.64      0.13      0.21       181\n  reality-tv       0.50      0.27      0.35       883\n     romance       0.37      0.08      0.13       672\n      sci-fi       0.56      0.34      0.42       646\n       short       0.43      0.39      0.41      5072\n       sport       0.66      0.37      0.47       431\n   talk-show       0.59      0.27      0.37       391\n    thriller       0.36      0.19      0.25      1590\n         war       0.61      0.13      0.21       132\n     western       0.92      0.78      0.84      1032\n\n    accuracy                           0.60     54200\n   macro avg       0.51      0.31      0.36     54200\nweighted avg       0.57      0.60      0.57     54200\n"
+}
